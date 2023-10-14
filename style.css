@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+#header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 90%;
+    padding: 20px;
+}
+
+.navbar {
+    min-height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.nav-items {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-items li {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.nav-items li a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.nav-items li a:hover {
+    color: #4CAF50;
+}
+
+.headline {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.btn {
+    display: inline-block;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px; 
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #4CAF50; /* Change the background color on hover */
+    color: white;
+}
+
+.btn-headline {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+.btn-headline:hover {
+    background-color: #4CAF50;
+}
+
+.to-do-section {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.form-todo {
+    margin-top: 16px;
+    min-height: 5vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-todo input[type="text"] {
+    width: 78%;
+    padding: 10px;
+    font-weight: 400;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+.form-todo input[type="submit"] {
+    width: 20%;
+    background: #4CAF50;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.todo-list {
+    text-align: left;
+    font-size: 16px;
+    list-style: none;
+}
+
+.todo-list li {
+    padding: 10px;
+    background: #333;
+    color: white;
+    margin-top: 16px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.todo-buttons .todo-btn {
+    font-weight: bold;
+    font-size: 14px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.todo-buttons .done {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.todo-buttons .remove {
+    background-color: #f44336;
+    color: white;
+}
+
+.section-signup {
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    background: #eae6e6;
+    border-radius: 10px;
+}
+
+.signupform {
+    max-width: 800px;
+    text-align: left;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.signupform label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.signupform input[type="text"],
+.signupform input[type="password"],
+.signupform input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.signupform textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.signup-btn {
+    background-color: #333;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signup-btn:hover {
+    background-color: #4CAF50;
+}

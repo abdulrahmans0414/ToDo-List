@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo-list</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav class="navbar">
+                <h1 class="logo">To-Do</h1>
+
+                <ul class="nav-items">
+                    <li><a href="#"></a> Home</li>
+                    <li><a href="#"></a> ToDo</li>
+                    <li><a href="#"></a>Sign Up</li>
+                </ul>
+            </nav>
+            <div class="headline">
+                <h1>Manage Your Task</h1>
+                <button class="btn btn-headline">Button</button>
+            </div>
+        </div>
+    </div>
+
+    <section class="to-do-section container">
+        <h2>Task plan</h2>
+        <form class="form-todo">
+            <input type="text" name="" placeholder="Add taak" />
+            <input type="submit" value="Add Todo" class="btn" />
+        </form>
+
+        <ul class="todo-list">
+            <li>
+                <span class="text"> Hi Abdul</span>
+                <div class="todo-buttons">
+                    <button class="todo-btn done">Done</button>
+                    <button class="todo-btn remove">Remove</button>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <section class="section-signup container">
+        <h2>Sign Up</h2>
+        <form name="submit-to-google-sheet" class="signupform">
+            <div class="form-group">
+                <label for="username"> Username :</label>
+                <input type="text" name="Name" placeholder="Your Username" required="" />
+            </div>
+            <div class="form-group">
+                <label for="Password"> Password :</label>
+                <input type="password" name="password" placeholder="Password" required="" />
+            </div>
+            <div class="form-group">
+                <label for="conformPassword"> Conform Password :</label>
+                <input type="password" name="password" placeholder="Conform Password" required="" />
+            </div>
+            <div class="form-group">
+                <label for="email"> Email :</label>
+                <input type="email" name=email" placeholder="Your Email" required="">
+            </div>
+            <div class="form-group">
+                <label for="Phone"> Phone :</label>
+                <input type="text" name="phone" placeholder="Your Phone" required="" />
+            </div>
+            <div class="form-group">
+                <label for="about"> About:</label>
+                <textarea name="" id="" rows="6"></textarea>
+            </div>
+            <button type="submit" class="btn signup-btn">Submit</button>
+        </form>
+    </section>
+</body>
+
+</html>
