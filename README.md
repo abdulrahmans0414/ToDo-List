@@ -4,7 +4,7 @@ ToDo-List is a simple and intuitive task management application that helps you s
 
 ## Preview
 
-![ToDo-List](https://gleeful-monstera-a7ae1d.netlify.app/)
+[ToDo-List](https://gleeful-monstera-a7ae1d.netlify.app)
 
 ## Features
 
